@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}HOME{% endblock %}
+{% load static %}
+
+{%block scriptshead%}
+<script src = "https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet"></link>
+<script type="text/javascript" src="{% static '/js/script_bienvenida_head.js'%}"></script>
+{%endblock%}
+
+{% block content %}
+
+        <!-- Contenedor Medio -->
+        <!-- Faltan migrar mas elementos a template base.html-->
+
+        <div class="middlecontainer">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div style="justify-content: center; margin-left:5% ;margin-right:5%">
+                        <h6 class="centro">YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h6>
+                        <p class="centro2">
+                            Falta terminar imagen Yelp y GOOGLE</p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6 d-none d-sm-block text-left"> <!-- Div a la izquierda -->
+                                        <img src="/static/imagenes/googlemaps.png"
+                                            class="img-fluid" width="50%" style="margin-left: 6%;"
+                                            alt="Responsive image">
+                                    </div>
+                                    <div class="col-6 d-none d-sm-block text-right"> <!-- Div a la derecha -->
+                                        <img src="/static/imagenes/yelp.png"
+                                            class="img-fluid" width="50%" style="margin-left: 6%;"
+                                            alt="Responsive image">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div style="justify-content: center; margin-bottom: 5%;
+                        margin-left:5% ;margin-right:5%">
+                        <div class="text-center border border-dark rounded-6"
+                            style="background-color: rgb(248, 251, 251);
+                            margin-top:7%;margin-left: 12%;margin-right: 6%;">
+                            <a href="{% url 'home' %}" class="d-grid gap-2 col-7
+                                mx-auto btn btn-info active responsive-width"
+                                style="margin-bottom: 2% ;margin-top: 5%;
+                                border-color: black; font-size: 1.4vw"
+                                tabindex="-1" role="button" aria-disabled="true">
+                                Ingreso a Reviews <img src="/static/imagenes/link2.png"
+                                class="img-responsive" margin-right="5em" width="14em"
+                                alt="Responsive Image"></a>
+                            <p class="centro1">
+                                Sistema de recomendación de Hoteles</p>
+                            <p style="margin-bottom: 5%;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor Bajo -->
+
+        <div class="bottomcontainer">
+            <div class="row">
+                <div class="col-3 d-none d-sm-block text-center">
+                    <img id="flip-img" src="/static/imagenes/Customer-Satisfaction-Surveys.png"
+                        class="img-fluid" width="100%" style="margin-left: 6%;"
+                        alt="Responsive image">
+                </div>
+                <div class="col-sm-6">
+                    <h6 id="txt00" class="bajo1">Rol a Desarrollar</h6>
+                    <p  class="bajo1">Como parte de una consultora de data, 
+                        nos han contratado para poder realizar un análisis del mercado
+                         estadounidense. Nuestro cliente es parte de un conglomerado de 
+                         empresas de restaurantes y afines, y desean tener un análisis 
+                         detallado de la opinión de los usuarios en Yelp y cruzarlos con los
+                          de Google Maps sobre hoteles, restaurantes y otros negocios afines
+                          al turismo y ocio, utilizando análisis de sentimientos, predecir 
+                          cuáles serán los rubros de los negocios que más crecerán 
+                          (o decaerán). Además, desean saber dónde es conveniente emplazar 
+                          los nuevos locales de restaurantes y afines, y desean poder tener 
+                          un sistema de recomendación de restaurantes para los usuarios de
+                           ambas plataformas para darle, al usuario por ejemplo la 
+                           posibilidad de poder conocer nuevos sabores basados en sus
+                            experiencias previas.</p>
+                </div>
+                <div class="col-sm-3">
+                    <div style="justify-content: center; margin-left:5% ;margin-right:5%">
+                        <h6 class="bajo2">Mas Información</h6>
+                        <div class="justify-content-center border border-dark rounded"
+                            style="background-color: rgb(248, 251, 251);">
+                            <p style="margin-bottom: 2%;"></p>
+                            <a class="enlace" href="https://www.google.com/">
+                                <p id="Tooltip-Arriba" class="bajo3" title="Vaya al Repo">
+                                    Repositorio Github</p>
+                                <p id="Tooltip-Izquierda1" class="bajo3 border-top" title="Estadísticas">
+                                    EDA</p>
+                                <p id="Tooltip-Izquierda2" class="bajo3 border-top" title="Objetivos">
+                                    KPI's</p>
+                                <p id="Tooltip-Abajo" class="bajo3 border-top" title="Etapas alcanzadas">
+                                    Hitos</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock content %}
+
+{%block scriptsfoot%}
+<script type="text/javascript" src="{% static '/js/script_bienvenida_foot.js'%}"></script>
+{%endblock%}
