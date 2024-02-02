@@ -60,6 +60,12 @@ Este proyecto utiliza los siguientes lenguajes de programación:
     <img src="HotReviews/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
 </p>
 
+- Primer print de pantalla de la página HOME:
+
+<p align="center">
+    <img src="HotReviews/screenshots/HOME.png"  height=400>
+</p>
+
 ## Contribución
 
 ¡Estamos abiertos a contribuciones! Si tienes ideas de mejora, problemas que reportar o características nuevas que te gustaría añadir, no dudes en abrir una solicitud de extracción o un problema en este repositorio.
