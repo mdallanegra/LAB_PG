@@ -4,6 +4,13 @@
 
 La página web de HotReviews es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
 
+## Flujo de Trabajo
+
+Diagrama de Gantt
+<p align="center">
+    <img src="HotReviews/screenshots/Gantt_Proyecto_Grupal_HenryDS.jpeg">
+</p>
+
 ## Instalación
 
 Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para instalar las dependencias del proyecto.
