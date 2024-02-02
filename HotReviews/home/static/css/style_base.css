@@ -57,8 +57,6 @@ h6.centro {
     font-size: 1.6vw;
     font-weight: bold;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 3%;
 }
 
 h6.bajo1 {
@@ -111,8 +109,6 @@ p.centro1 {
     font-size: 1vw;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 0%;
-    margin-left: 0%;
 }
 
 p.centro2 {
@@ -120,7 +116,6 @@ p.centro2 {
     font-size: 1.2vw;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 3%;
 }
 
 p.bajo1 {

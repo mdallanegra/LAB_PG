@@ -15,68 +15,42 @@
         <!-- Faltan migrar mas elementos a template base.html-->
 
         <div class="middlecontainer">
-            <div class="row">
-                <div class="col-sm-12" style="background-color: #3498DB;">
-                    <div class="vertical-center">
+            <div>
+                <div class="row">
+                    <div class="col-sm-12"">
                         <!-- Titulo recomendations -->
                         <h6 class="centro">YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h6>
                         <!-- Subtitulo recomendations -->
                         <p class="centro2">Falta terminar imagen Yelp y GOOGLE</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4" style="background-color: #f0f0f0; text-align: center">
-                    <div class="vertical-center">
-                        <img src="/static/imagenes/googlemaps.png" class="img-fluid" width="10%" alt="Responsive image">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="/static/imagenes/googlemaps.png" class="img-fluid" width="20%" alt="Responsive image">
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4 d-flex align-items-center" style="background-color: #f0f0f0;text-align: center">
-                    <div class="col-sm-4 d-flex align-items-center border border-dark" style="background-color: #f0f0f0; border-radius: 20px;">                  
-                        <a href="{% url 'home' %}" class="custom-btn btn-5 mx-auto btn btn-info active responsive-width" style=" border-color: black; font-size: 1.4vw" tabindex="-1" role="button" aria-disabled="true">
-                            Ingreso a Reviews <img src="/static/imagenes/link2.png" class="img-responsive" margin-right="5em" width="14em" alt="Responsive Image">
-                        </a>
-                        <p class="centro1">Sistema de recomendación de Hoteles</p>
-                        <p style="margin-bottom: 5%;"></p>
-                    </div>
-                </div>
-                <div class="col-sm-4" style="background-color: #f0f0f0; text-align: center">
-                    <div class="vertical-center">
-                        <img src="/static/imagenes/yelp.png" class="img-fluid" width="10%" alt="Responsive image">  
-                    </div>
-                </div>
-            </div>
-            
-            
 
-                <div class="row">
-                    <div style="justify-content: center; margin-left: 5%; margin-right: 5%">
-                        <!-- Titulo recomendations -->
-                        <h6 class="centro">YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h6>
-                        <!-- Subtitulo recomendations -->
-                        <p class="centro2">Falta terminar imagen Yelp y GOOGLE</p>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <a href="{% url 'home' %}" class="custom-btn btn-5 mx-auto btn btn-info active responsive-width" style=" border-color: black; font-size: 1.4vw" tabindex="-1" role="button" aria-disabled="true">
+                                Ingreso a Reviews <img src="/static/imagenes/link2.png" class="img-responsive" margin-right="5em" width="14em" alt="Responsive Image">
+                            </a>
+                        </div>
+                        <div class="row;text-center">
+                            <p class="centro2">Sistema de recomendación de Hoteles</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <!-- Imagen Google y Yelp -->
-                    <div class="col-sm-4 d-none d-sm-block text-left"> <!-- Imagen Google -->
-                                <img src="/static/imagenes/googlemaps.png" class="img-fluid" width="10%" style="margin-left: 6%;" alt="Responsive image">
-                    </div>
-                    <!-- Boton Reviews -->
-                    <div class="col-sm-4 text-center border border-dark" style="background-color: #f0f0f0; margin-top: 7%; margin-left: 12%; margin-right: 6%; border-radius: 20px;">                  
-                        <a href="{% url 'home' %}" class="custom-btn btn-5 mx-auto btn btn-info active responsive-width" style="margin-bottom: 2%; margin-top: 5%; border-color: black; font-size: 1.4vw" tabindex="-1" role="button" aria-disabled="true">
-                            Ingreso a Reviews <img src="/static/imagenes/link2.png" class="img-responsive" margin-right="5em" width="14em" alt="Responsive Image">
-                        </a>
-                        <p class="centro1">Sistema de recomendación de Hoteles</p>
-                        <p style="margin-bottom: 5%;"></p>
-                    </div>
-                    <div class="col-sm-4 d-none d-sm-block text-right"> <!-- Imagen Yelp -->
-                                <img src="/static/imagenes/yelp.png" class="img-fluid" width="10%" style="margin-left: 6%;" alt="Responsive image">  
+
+                    <div class="col-sm-4">
+                        <div class="text-center">
+                            <img src="/static/imagenes/yelp.png" class="img-fluid" width="40%" alt="Responsive image">  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <!-- Contenedor Bajo -->
 
         <div class="bottomcontainer">
