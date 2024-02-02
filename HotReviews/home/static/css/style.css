@@ -84,3 +84,10 @@
     background: linear-gradient(180deg, #e6e6e6 0%, rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%, rgba(0, 0, 0, 0.25) 100%);
     border-radius: 5px;
 }
+
+.vertical-center {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
