@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="es">
+    <meta name="description" content="Texto descripcion">
+    <meta name="keywords" content="Texto Servicios">
+    <meta name="author" content="Autores Todos">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="copyright" content="© 2024 Copyright: HotReviews.com">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    {% load static %}
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kenia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nerko+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime">
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/script_base_head.js' %}"></script>
+    {%block scriptshead%}{%endblock%}
+</head>
+
+<body>
+    <!-- Contenedor Alto -->
+    <div class="topcontainer d-none d-md-block">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="enlace" href="{% url 'home' %}">
+                            <h1 class="uno">HotReviews</h1>
+                            <p class="uno">Ayudando a mejorar el marketing de su empresa</p>
+                        </a>
+                    </div>
+                    <div class="col-6 text-center" style="margin-top: 3%; margin-bottom: 3%">
+                        <a href="{% url 'home' %}">
+                            <img id="img_prueba" src="/static/imagenes/survey.png" class="img-responsive" width="80%" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="enlace" href="{% url 'home' %}">
+                            <h6 id="AcercaNos" class="uno">Acerca de Nosotros <img src="/static/imagenes/link.png" class="img-responsive " width="5%" alt="Responsive image"></h6>
+                        </a>
+                        <p class="dos">Acerca del proyecto, división de tareas, hitos, sprints, etc.</p>
+                    </div>
+                    <div class="col-6">
+                        <a class="enlace" href="{% url 'home' %}">
+                            <h6 id="IngresoCli" class="uno">Ingreso de Clientes <img src="/static/imagenes/link.png" class="img-responsive " width="5%" alt="Responsive image"></h6>
+                        </a>
+                        <p class="dos">Revise las estadísticas de las experiencias recopiladas por sus consumidores</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a class="enlace" href="{% url 'home' %}">
+                            <h6 id="Contactss" class="uno">Contacto <img src="/static/imagenes/link.png" class="img-responsive " width="5%" alt="Responsive image"></h6>
+                        </a>
+                        <p class="dos">Contacto con los integrantes del grupo?</p>
+                    </div>
+                    <div class="col-6">
+                        <a class="enlace" href="{% url 'home' %}">
+                            <h6 id="Productoss" class="uno">Busqueda <img src="/static/imagenes/link.png" class="img-responsive " width="5%" alt="Responsive image"></h6>
+                        </a>
+                        <p class="dos">Busqueda</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFF2CC">
+                <a class="navbar-brand" href="{% url 'home' %}">
+                    <img src="/static/imagenes/survey.png" width="30" height="30" class="d-inline-block align-top" alt=""> HotReviews
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{% url 'home' %}">Acerca De <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'home' %}">Ingreso Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'home' %}">Busqueda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="{% url 'home' %}">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Fin Contenedor Alto -->
+
+    {% block content %}
+    {% endblock content %}
+
+    <!-- Contenedor Pie de Pagina -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-md-block">
+                <span>Carrera Data Science PT</span>
+            </div>
+            <div class="text-md-center" style="margin-right: 1cm;">
+                <a href="https://www.soyhenry.com/">
+                    <img src="/static/imagenes/HenryLogo.svg" class="img-responsive" width="150%" alt="Responsive image">
+                </a>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="{% url 'home' %}">HotReviews.com</a>
+        </div>
+    </footer>
+    {%block scriptsfoot%} 
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    {%endblock%}
+</body>
+</html>

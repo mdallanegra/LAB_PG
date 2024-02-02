@@ -52,41 +52,18 @@
         <!-- Los estilos de la Pagina Base están en un archivo style_base.css -->
         
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <style>
+        </style>
+
         {%block scriptshead%}
         {%endblock%}
     </head>
+
     <!-- Contenedor Alto -->
 
     <body>
         <div class="topcontainer d-none d-md-block">
-            <!-- <div class="d-block d-md-none"> -->
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFF2CC">
-                    <a class="navbar-brand" href="{% url 'home' %}">
-                        <img src="/static/imagenes/survey.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                        HotReviews
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="{% url 'home' %}">Acerca De <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="{% url 'home' %}">Ingreso Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="{% url 'home' %}">Busqueda</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link " href="{% url 'home' %}">Contacto</a>
-                        </li>
-                    </ul>
-                    </div>
-                </nav>
-            </div>
             <div class="row">
                 <div class="col-6">
                     <div class="row">
@@ -151,10 +128,38 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="d-block d-md-none"> -->
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFF2CC">
+                    <a class="navbar-brand" href="{% url 'home' %}">
+                        <img src="/static/imagenes/survey.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        HotReviews
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'home' %}">Acerca De <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Ingreso Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Busqueda</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="{% url 'home' %}">Contacto</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
         
-        {% block content %}
-        {% endblock content %}
+    {% block content %}
+    {% endblock content %}
 
         <!-- Contenedor Pie de Pagina -->
 
