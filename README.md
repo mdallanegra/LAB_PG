@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Uso
 
-1. Dirigete el directorio principal /HotReviews
+1. Dirigete el directorio principal ```/HotReviews```
 2. Ejecuta la aplicación utilizando el comando `npm start` o `python manage.py runserver`.
 3. Abre tu navegador web y navega a la URL proporcionada para acceder a la página web de HotReviews.
 4. Explora las diferentes funcionalidades de la página web, como búsqueda de reseñas, publicaciones, etc.
@@ -34,17 +34,19 @@ pip install -r requirements.txt
 
 Este proyecto utiliza los siguientes frameworks de trabajo:
 
-- Django: Framework de desarrollo web de alto nivel en Python que fomenta el desarrollo rápido y limpio.
-- Visual Studio Code: Editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.
+- ```Django```: Framework de desarrollo web de alto nivel en Python que fomenta el desarrollo rápido y limpio.
+- ```Bootstrap```: Framework que facilita la creación de interfaces de usuario responsivas y modernas para sitios y aplicaciones web.
+- ```Visual Studio Code```: Editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.
 
 ## Lenguajes de Programación
 
 Este proyecto utiliza los siguientes lenguajes de programación:
 
-- Python
-- HTML
-- CSS
-- JavaScript
+- ```Python```
+- ```HTML```
+- ```CSS```
+- ```Bootstrap```
+- ```JavaScript```
 
 ## Ejemplos
 
@@ -72,9 +74,9 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 
 Este proyecto está bajo las Licencias:
 
-- [Licencia GPL 3.0](LICENSE).
-- [Licencia MIT](LICENSE).
-- [Licencia Apache 2.0](LICENSE).
+- [Licencia GPL 3.0](LICENSE-GPL).
+- [Licencia MIT](LICENSE-MIT).
+- [Licencia Apache 2.0](LICENSE-APACHE).
 
 ## Contacto
 
@@ -84,4 +86,4 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotReview
 
 - [Documentación completa del proyecto](/HotReviews)
 - [Repositorio de código fuente](https://github.com/mdallanegra/LAB_PG.git)
-- [Sitio web en vivo](https://www.hotreviews.com)
+- [Sitio web en vivo](https://www.soyhenry.com)
