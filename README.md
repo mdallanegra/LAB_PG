@@ -8,7 +8,7 @@ La página web de HotReviews es una plataforma diseñada para compartir y encont
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotReviews/screenshots/Gantt_Proyecto_Grupal_HenryDS.jpeg">
+    <img src="HotReviews/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
 </p>
 
 ## Instalación
