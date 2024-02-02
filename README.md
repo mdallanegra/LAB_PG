@@ -45,7 +45,6 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 - ```Python```
 - ```HTML```
 - ```CSS```
-- ```Bootstrap```
 - ```JavaScript```
 
 ## Ejemplos
