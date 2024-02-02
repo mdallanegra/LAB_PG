@@ -4,9 +4,18 @@
 La página web de HotReviews es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
 
 ## Instalación
+
+Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para instalar las dependencias del proyecto.
+
 1. Clona este repositorio en tu máquina local.
 2. Instala las dependencias necesarias utilizando el gestor de paquetes de tu elección (por ejemplo, npm o pip).
-3. Configura el archivo de configuración según sea necesario (por ejemplo, configuración de la base de datos, credenciales de API, etc.).
+
+```bash
+git clone https://github.com/mdallanegra/LAB_PG.git
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Uso
 1. Ejecuta la aplicación utilizando el comando `npm start` o `python manage.py runserver`.
