@@ -4,6 +4,16 @@
 
 La página web de HotReviews es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
 
+gantt
+    title Diagrama de Gantt
+    dateFormat  YYYY-MM-DD
+    section Sección 1
+    Tarea 1: tarea1, 2024-02-01, 7d
+    Tarea 2: tarea2, after tarea1, 5d
+    section Sección 2
+    Tarea 3: tarea3, 2024-02-10, 3d
+
+
 ## Flujo de Trabajo
 
 Diagrama de Gantt
