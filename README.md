@@ -70,7 +70,7 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 - Primer print de pantalla de la página HOME:
 
 <p align="center">
-    <img src="HotReviews/screenshots/HOME.png"  height=400>
+    <img src="HotReviews/screenshots/Web_HotReviews_01_HOME.png"  height=400>
 </p>
 
 ## Contribución
